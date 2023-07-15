@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 0;
+    padding: 15px 15px;
 }
 .navbar__wrapper img{
     max-width: 90px;
@@ -22,4 +22,9 @@
 }
 .rightSide a:hover{
     opacity: 0.6;
+}
+@media (max-width: 500px) {
+    .navbar .rightSide{
+        display: none;
+    }
 }
