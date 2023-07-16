@@ -11,3 +11,9 @@
     font-size: 70px;
     margin: 20px;
 }
+@media (max-width: 470px) {
+    .socialMedia svg{
+        font-size: 45px;
+        margin: 10px;
+    }
+}
