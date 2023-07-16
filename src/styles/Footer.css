@@ -13,7 +13,13 @@
 }
 @media (max-width: 470px) {
     .socialMedia svg{
-        font-size: 45px;
+        font-size: 40px;
         margin: 10px;
+    }
+}
+@media (max-width: 400px) {
+    .socialMedia svg{
+        font-size: 30px;
+        margin: 7px;
     }
 }
